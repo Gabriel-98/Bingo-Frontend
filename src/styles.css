@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+@font-face {
+  font-family: 'Baloo';
+  src: url('./assets/fonts/baloo/Baloo-Regular.ttf');
+}
+
+.page-main-container {
+	width: 100%;
+	height: 100%;
+	background-color: #050a30;
+}
+
+.link {
+	font-family: 'Baloo';
+	color: #0066CC;
+	text-decoration: none;
+}
+
+.form-container {
+	max-width: 300px;
+	padding: 32px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.form-title {
+	font-family: 'Baloo' !important;
+	font-size: 32px !important;
+	color: black !important;
+	text-align: center !important;
+}
+
+.form-bottom-text {
+	font-family: 'Baloo';
+	color: grey;
+}
